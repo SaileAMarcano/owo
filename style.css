@@ -8,7 +8,7 @@
     border: 5px solid white;
     font-family: "Fuente2", sans-serif;
     margin: 0;
-    padding: 50px;
+    
 }
  
  @keyframes moverFondo {
@@ -19,12 +19,12 @@
 
  @font-face {
         font-family: "Fuente1";
-        src: url(/ADLaMDisplay-Regular.ttf) format(truetype);        
+        src: url(./ADLaMDisplay-Regular.ttf) format(truetype);        
 }
 
  @font-face {
         font-family: "Fuente2";
-        src: url(/SundayVibe.ttf) format(truetype)
+        src: url(./SundayVibe.ttf) format(truetype)
 }
 
    main{
