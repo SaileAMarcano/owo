@@ -8,9 +8,12 @@
     border: 5px solid white;
     font-family: "Fuente2", sans-serif;
     margin: 0;
-    
 }
- 
+header{
+    font-family: "Fuente3", sans-serif;
+}
+
+
  @keyframes moverFondo {
     0% { background-position: 0% 50%; }
     50% { background-position: 100% 50%; }
@@ -27,10 +30,31 @@
         src: url(./SundayVibe.ttf) format(truetype)
 }
 
-   main{
-    font-family: "Fuente1", sans-serif;
-    margin: 0;
-    padding: 20px;
+ @font-face {
+        font-family: "Fuente3";
+        src: url(./Super-Malibu.otf) format(truetype)
 }
 
-  
+.SobreMi{
+    font-family: "Fuente1", sans-serif;
+    text-align: justify;
+    padding-right: 10px;
+    }
+
+.SobreMi{
+    display: flex;
+    width: 400px;
+    border: black 2px groove;
+    border-radius: 75px;
+    gap: 10px;
+}
+
+.SobreMi img{
+    width: 200px;
+    border: #BE98FA 2px;
+    border-radius: 75px;
+}
+
+.SobreMi figcaption{
+    max-width: 250px;
+}
